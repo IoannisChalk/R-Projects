@@ -1,8 +1,8 @@
 # Install and load necessary packages
-if(!require(ggplot2)) install.packages("ggplot2")
-if(!require(dplyr)) install.packages("dplyr")
-if(!require(tidyr)) install.packages("tidyr")
-if(!require(skimr)) install.packages("skimr")
+install.packages("ggplot2")
+install.packages("dplyr")
+install.packages("tidyr")
+install.packages("skimr")
 
 library(ggplot2)
 library(dplyr)
