@@ -1,9 +1,9 @@
 # Install and load necessary packages
-if(!require(palmerpenguins)) install.packages("palmerpenguins")
-if(!require(dplyr)) install.packages("dplyr")
-if(!require(ggplot2)) install.packages("ggplot2")
-if(!require(tidyr)) install.packages("tidyr")
-if(!require(skimr)) install.packages("skimr")
+install.packages("palmerpenguins")
+install.packages("dplyr")
+install.packages("ggplot2")
+install.packages("skimr")
+install.packages("janitor")
 
 library(palmerpenguins)
 library(dplyr)
